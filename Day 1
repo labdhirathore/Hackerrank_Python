@@ -14,4 +14,3 @@ print(d+d1)
 print(s+s1)
 # The 's' variable above should be printed first.
 
-
