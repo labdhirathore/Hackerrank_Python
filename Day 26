@@ -1,0 +1,19 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+ret = (input().split(' '))
+d1 = int(ret[0])
+m1 = int(ret[1])
+y1 = int(ret[2])
+exp = (input().split(' '))
+d2 = int(exp[0])
+m2 = int(exp[1])
+y2 = int(exp[2])
+fine = 0
+if  y1 > y2:
+    fine = 10000
+elif  m1 > m2 and y2 == y1:
+    fine = 500 * (m1-m2)
+elif d1 > d2 and m2 == m1 and y2 == y1:
+    fine = 15 * (d1-d2)
+elif  d1 < d2 and m2 == m1 and y2 == y1:
+    fine = 0
+print(fine)
