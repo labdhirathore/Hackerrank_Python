@@ -13,4 +13,3 @@ print(d+d1)
 # Concatenate and print the String variables on a new line
 print(s+s1)
 # The 's' variable above should be printed first.
-
